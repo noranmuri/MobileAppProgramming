@@ -7,14 +7,19 @@
 
 import Foundation
 
+//시스템 챌린지
 struct Challenge:Identifiable{
     var id = UUID().uuidString
     var title: String
-//    var content: String
-//    var img: URL
-//    var done: Bool = false
-//    var begin: DateComponents
-//    var end: DateComponents
-    var isFavorite: Bool = false
-//    var alarm: timeb
 }
+
+//유저용 챌린지
+struct UserChallenge:Identifiable{
+    var id = UUID().uuidString
+    var title: String
+    var done: Bool = false
+    var begin: DateComponents
+    var end: DateComponents
+    var alarm: timeb
+}
+

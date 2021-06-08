@@ -32,7 +32,10 @@
 		2DDA7B43265D5D2D00A8F81D /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDA7B42265D5D2D00A8F81D /* KeyboardResponder.swift */; };
 		F46D7FCC265E783600BE21D5 /* ChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46D7FCB265E783600BE21D5 /* ChallengeViewModel.swift */; };
 		F46D7FD0265E826300BE21D5 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46D7FCF265E826300BE21D5 /* ChallengeView.swift */; };
+		F49EFBEF266F5057006AAFC8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EFBEE266F5057006AAFC8 /* User.swift */; };
+		F49EFBF1266F50BF006AAFC8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EFBF0266F50BF006AAFC8 /* Post.swift */; };
 		F4CC4200265E918B00910861 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CC41FF265E918B00910861 /* GoogleService-Info.plist */; };
+		F4DF988D266F583000A3B3E0 /* Yes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF988C266F583000A3B3E0 /* Yes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,7 +68,10 @@
 		79021763389A4E8933270478 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		F46D7FCB265E783600BE21D5 /* ChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewModel.swift; sourceTree = "<group>"; };
 		F46D7FCF265E826300BE21D5 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		F49EFBEE266F5057006AAFC8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F49EFBF0266F50BF006AAFC8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F4CC41FF265E918B00910861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4DF988C266F583000A3B3E0 /* Yes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				2DDA7AED265D558700A8F81D /* MessageView.swift */,
+				F4DF988C266F583000A3B3E0 /* Yes.swift */,
 			);
 			path = MessageView;
 			sourceTree = "<group>";
@@ -222,6 +229,8 @@
 			children = (
 				2DDA7B32265D5D1E00A8F81D /* Challenge.swift */,
 				2DDA7B33265D5D1E00A8F81D /* ChallengeFavorRow.swift */,
+				F49EFBEE266F5057006AAFC8 /* User.swift */,
+				F49EFBF0266F50BF006AAFC8 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -384,8 +393,11 @@
 				F46D7FCC265E783600BE21D5 /* ChallengeViewModel.swift in Sources */,
 				2DDA7B2B265D5CA000A8F81D /* ChallengeFavorListViewModel.swift in Sources */,
 				2DDA7B3F265D5D2500A8F81D /* NewChallengeView.swift in Sources */,
+				F49EFBEF266F5057006AAFC8 /* User.swift in Sources */,
 				2DDA7ACB265D517900A8F81D /* AppDelegate.swift in Sources */,
 				2DDA7B2A265D5CA000A8F81D /* ChallengeFavorListView.swift in Sources */,
+				F49EFBF1266F50BF006AAFC8 /* Post.swift in Sources */,
+				F4DF988D266F583000A3B3E0 /* Yes.swift in Sources */,
 				2DDA7B35265D5D1E00A8F81D /* Challenge.swift in Sources */,
 				2DDA7ACD265D517900A8F81D /* SceneDelegate.swift in Sources */,
 				2DDA7B36265D5D1E00A8F81D /* ChallengeFavorRow.swift in Sources */,
