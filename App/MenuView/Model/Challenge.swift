@@ -8,11 +8,13 @@
 import Foundation
 
 struct Challenge:Identifiable{
-    var id = UUID()
-    var title : String
-    var isFavorite = false
-    //var inProgress = false
-    //var startDate : Date
-    //var finishDate : Date
-    //var alarm : ??????time을 써야하나?
+    var id = UUID().uuidString
+    var title: String
+//    var content: String
+//    var img: URL
+//    var done: Bool = false
+//    var begin: DateComponents
+//    var end: DateComponents
+    var isFavorite: Bool = false
+//    var alarm: timeb
 }

@@ -14,11 +14,11 @@ class MockDataManager {
     
     init() {
         challenges = [
-            Challenge(id: UUID(), title: "하늘 사진 찍기", isFavorite: true),
-            Challenge(id: UUID(), title: "운동 1시간 하기", isFavorite: false),
-            Challenge(id: UUID(), title: "책 1챕터 읽기", isFavorite: false),
-            Challenge(id: UUID(), title: "달 사진 찍기", isFavorite: true),
-            Challenge(id: UUID(), title: "일찍 일어나기", isFavorite: true),
+            Challenge(id: UUID().uuidString, title: "하늘 사진 찍기", isFavorite: true),
+            Challenge(id: UUID().uuidString, title: "운동 1시간 하기", isFavorite: false),
+            Challenge(id: UUID().uuidString, title: "책 1챕터 읽기", isFavorite: false),
+            Challenge(id: UUID().uuidString, title: "달 사진 찍기", isFavorite: true),
+            Challenge(id: UUID().uuidString, title: "일찍 일어나기", isFavorite: true),
         ]
     }
 }

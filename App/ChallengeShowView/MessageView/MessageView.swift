@@ -11,6 +11,7 @@ struct MessageView: View{
     var isClick: Bool = false
     @State private var noActive = false
     @State private var yesActive = false
+    @ObservedObject private var viewModel = ChallengeViewModel()
     
     var body: some View{
         NavigationView{
@@ -23,11 +24,13 @@ struct MessageView: View{
                 .frame(width:350, height: 350)
             NavigationLink(destination: Text("no page"), isActive : $noActive){}
             NavigationLink(destination: Text("yes page"), isActive : $yesActive){}
-            VStack{
-                Text("챌린지 내용")
+            VStack {
+                Text(viewModel.challenges.randomElement()?.title ?? "None")
+                    .onAppear() {
+                        self.viewModel.fetchData()
+                    }
                     .font(Font.largeTitle)
                     .padding(15)
-
                 HStack(content: {
                     Button(action:{
                         noActive = true
